@@ -41,7 +41,7 @@ function sendMessage($chatId, $message, $r)
 switch ($message) {
 
     case "سلام":
-        sendMessage($chatId, "سلام , عزیزم خوبی؟", $encodedMarkup);
+        sendMessage($chatId, "000سلام , عزیزم خوبی؟", $encodedMarkup);
         break;
     case "نه":
         sendMessage($chatId, "به جهنم که خوب نیستی", $encodedMarkup);
